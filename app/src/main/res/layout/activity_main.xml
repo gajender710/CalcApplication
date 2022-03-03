@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonclear"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:backgroundTint="@color/black"
+                android:text="@string/c"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button0"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+
+                android:text="@string/zero"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonx"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="@string/multiply"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonequate"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#776A6A"
+                android:text="@string/equals"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="@string/seven"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="@string/eight"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="@string/nine"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttondivide"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+
+                android:backgroundTint="@color/black"
+                android:text="@string/divide"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="@string/four"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="@string/five"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="@string/six"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonminus"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="@string/minus"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="@string/one"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="@string/two"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="@string/three"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonadd"
+                style="@style/MaterialAlertDialog.Material3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="@string/plus"
+                android:textColor="@color/white" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:text=""
+        android:textColor="@color/black"
+
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
